@@ -1,0 +1,177 @@
+IQ-TREE 1.6.4 built Apr 29 2018
+
+Input file name: /home/rob/bootstrap/datasets/2033/alignment.fasta
+Type of analysis: tree reconstruction + non-parametric bootstrap (100 replicates)
+Random seed number: 737947
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Lam-Tung Nguyen, Heiko A. Schmidt, Arndt von Haeseler, and Bui Quang Minh
+(2015) IQ-TREE: A fast and effective stochastic algorithm for estimating
+maximum likelihood phylogenies. Mol Biol Evol, 32:268-274.
+https://doi.org/10.1093/molbev/msu300
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 20 sequences with 100 nucleotide sites
+Number of constant sites: 0 (= 0% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 0 (= 0% of all sites)
+Number of parsimony informative sites: 100
+Number of distinct site patterns: 100
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: JC
+
+Rate parameter R:
+
+  A-C: 1.0000
+  A-G: 1.0000
+  A-T: 1.0000
+  C-G: 1.0000
+  C-T: 1.0000
+  G-T: 1.0000
+
+State frequencies: (equal frequencies)
+
+Rate matrix Q:
+
+  A        -1    0.3333    0.3333    0.3333
+  C    0.3333        -1    0.3333    0.3333
+  G    0.3333    0.3333        -1    0.3333
+  T    0.3333    0.3333    0.3333        -1
+
+Model of rate heterogeneity: Uniform
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -2400.6643 (s.e. 24.5472)
+Unconstrained log-likelihood (without tree): -460.5170
+Number of free parameters (#branches + #model parameters): 37
+Akaike information criterion (AIC) score: 4875.3286
+Corrected Akaike information criterion (AICc) score: 4920.6834
+Bayesian information criterion (BIC) score: 4971.7199
+
+Total tree length (sum of branch lengths): 26.1566
+Sum of internal branch lengths: 6.9856 (26.7069% of tree length)
+
+WARNING: 2 near-zero internal branches (<0.0100) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+WARNING: 1 too long branches (>9.8000) should be treated with caution!
+NOTE: Tree is UNROOTED although outgroup taxon 't16' is drawn at root
+Numbers in parentheses are  standard bootstrap support (%)
+
++-----------------------------------------------------------t16
+|
+|              +------t9
+|           +--| (21)
+|           |  +--t17
+|        +--| (22)
+|        |  +**t12
+|     +--| (1)
+|     |  |     +-----t14
+|     |  |  +--| (9)
+|     |  |  |  |  +--t19
+|     |  |  |  +--| (54)
+|     |  |  |     +--t11
+|     |  +--| (0)
+|     |     +--t6
+|  +--| (0)
+|  |  |  +--t2
+|  |  +--| (1)
+|  |     |  +**t18
+|  |     +--| (4)
+|  |        |                        +---------t10
+|  |        |                     +--| (4)
+|  |        |                     |  +**t7
+|  |        |            +--------| (31)
+|  |        |            |        +**t15
+|  |        |         +--| (7)
+|  |        |         |  +**t20
+|  |        +---------| (23)
+|  |                  +**t4
++--| (1)
+|  |     +-------t13
+|  |  +--| (13)
+|  |  |  +--t1
+|  +**| (3)
+|     +--t8
+|
+|  +-------t5
++**| (12)
+   +**t3
+
+Tree in newick format:
+
+(t16:9.9999986341,(((((t9:1.2132498385,t17:0.1669168522)21:0.2337625734,t12:0.0000029718)22:0.4620451888,((t14:1.1041383239,(t19:0.0863682883,t11:0.2963598010)54:0.6158649126)9:0.5349923123,t6:0.0953341311)0:0.1557986106)1:0.3568204579,(t2:0.4320286308,(t18:0.0000022230,((((t10:1.6785377275,t7:0.0000022561)4:0.0411020667,t15:0.0000022304)31:1.5901988330,t20:0.0000022461)7:0.4714519448,t4:0.0000023114)23:1.6785329090)4:0.3250947851)1:0.1130264922)0:0.0544059105,((t13:1.4221871128,t1:0.5889306801)13:0.1898536318,t8:0.6472168478)3:0.0000021729)1:0.1626770736,(t5:1.4396944831,t3:0.0000024368)12:0.0000023124);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 100 bootstrap trees
+Log-likelihood of consensus tree: -2404.884863
+Robinson-Foulds distance between ML tree and consensus tree: 26
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++---------t16
+|
+|                  +--t9
+|               +--| (26)
+|               |  +---t13
+|            +--| (5)
+|            |  |     +--t2
+|            |  |  +--| (26)
+|            |  |  |  +--t18
+|            |  +--| (7)
+|            |     |  +--t1
+|            |     +--| (10)
+|            |        +--t3
+|         +--| (4)
+|         |  |  +--t6
+|         |  +--| (12)
+|         |     |  +--t12
+|         |     +--| (51)
+|         |        +--t17
+|      +--| (8)
+|      |  +--t8
+|   +--| (3)
+|   |  |                                                  +----t10
+|   |  |                                               +--| (31)
+|   |  |                                               |  |  +--t15
+|   |  |                                               |  +--| (74)
+|   |  |                                               |     +--t7
+|   |  +-----------------------------------------------| (23)
+|   |                                                  |  +--t4
+|   |                                                  +--| (65)
+|   |                                                     +--t20
++---| (19)
+|   |  +-----t14
+|   +--| (9)
+|      |  +--t19
+|      +--| (54)
+|         +--t11
+|
++--t5
+
+
+Consensus tree in newick format: 
+
+(t16:2.1983936742,((((((t9:0.8174356137,t13:0.8624074874)26:0.8182297133,((t2:0.4357174605,t18:0.3237010172)26:0.1403506198,(t1:0.7937953458,t3:0.1720996558)10:0.0084219751)7:0.0546298295)5:0.0363467165,(t6:0.2316109871,(t12:0.0000021437,t17:0.3999715676)51:0.4848426033)12:0.3074031921)4:0.2350483939,t8:0.3362216558)8:0.3779864615,((t10:1.1015682643,(t15:0.0119184839,t7:0.0292677886)74:0.6404454167)31:0.3538629323,(t4:0.4714542774,t20:0.0000023347)65:0.6128156361)23:9.9999988604)3:0.0635364288,(t14:1.3535518869,(t19:0.1783821822,t11:0.2032483705)54:0.5210058428)9:0.0269993089)19:0.9184750247,t5:0.0000021633);
+
+TIME STAMP
+----------
+
+Date and time: Wed May  2 20:53:51 2018
+Total CPU time used: 5.48 seconds (0h:0m:5s)
+Total wall-clock time used: 5.698949099 seconds (0h:0m:5s)
+

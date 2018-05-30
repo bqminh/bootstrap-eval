@@ -1,0 +1,176 @@
+IQ-TREE 1.6.4 built Apr 29 2018
+
+Input file name: /home/rob/bootstrap/datasets/2112/alignment.fasta
+Type of analysis: tree reconstruction + non-parametric bootstrap (100 replicates)
+Random seed number: 253972
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Lam-Tung Nguyen, Heiko A. Schmidt, Arndt von Haeseler, and Bui Quang Minh
+(2015) IQ-TREE: A fast and effective stochastic algorithm for estimating
+maximum likelihood phylogenies. Mol Biol Evol, 32:268-274.
+https://doi.org/10.1093/molbev/msu300
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 20 sequences with 100 nucleotide sites
+Number of constant sites: 40 (= 40% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 40 (= 40% of all sites)
+Number of parsimony informative sites: 29
+Number of distinct site patterns: 62
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: JC
+
+Rate parameter R:
+
+  A-C: 1.0000
+  A-G: 1.0000
+  A-T: 1.0000
+  C-G: 1.0000
+  C-T: 1.0000
+  G-T: 1.0000
+
+State frequencies: (equal frequencies)
+
+Rate matrix Q:
+
+  A        -1    0.3333    0.3333    0.3333
+  C    0.3333        -1    0.3333    0.3333
+  G    0.3333    0.3333        -1    0.3333
+  T    0.3333    0.3333    0.3333        -1
+
+Model of rate heterogeneity: Uniform
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -603.6640 (s.e. 38.4511)
+Unconstrained log-likelihood (without tree): -363.4764
+Number of free parameters (#branches + #model parameters): 37
+Akaike information criterion (AIC) score: 1281.3279
+Corrected Akaike information criterion (AICc) score: 1326.6827
+Bayesian information criterion (BIC) score: 1377.7192
+
+Total tree length (sum of branch lengths): 1.0128
+Sum of internal branch lengths: 0.2277 (22.4864% of tree length)
+
+WARNING: 11 near-zero internal branches (<0.0100) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 't17' is drawn at root
+Numbers in parentheses are  standard bootstrap support (%)
+
++---------------------t17
+|
+|                       +--t3
+|                    +**| (16)
+|                    |  +--------t4
+|                 +--| (45)
+|                 |  |                        +-----------------------------t12
+|                 |  +------------------------| (100)
+|                 |                           +**t14
+|              +**| (7)
+|              |  +----t16
+|           +**| (0)
+|           |  |  +--t1
+|           |  +**| (2)
+|           |     |  +--t15
+|           |     +--| (86)
+|           |        +--t8
+|        +**| (0)
+|        |  |     +----t11
+|        |  |  +**| (20)
+|        |  |  |  +-------------------t20
+|        |  +**| (3)
+|        |     +----t10
+|     +**| (3)
+|     |  |     +**t7
+|     |  |  +--| (67)
+|     |  |  |  +------t5
+|     |  +**| (50)
+|     |     |    +--t18
+|     |     +----| (92)
+|     |          +**t9
+|  +--| (43)
+|  |  +----t6
++**| (58)
+|  |  +--t13
+|  +**| (15)
+|     +--t19
+|
++---------------t2
+
+Tree in newick format:
+
+(t17:0.1189539439,((((((((t3:0.0100696703,t4:0.0517614921)16:0.0000020786,(t12:0.1607231639,t14:0.0069948275)100:0.1360919312)45:0.0100693384,t16:0.0306164959)7:0.0000020378,(t1:0.0100672654,(t15:0.0101021854,t8:0.0101022003)86:0.0203783885)2:0.0000020533)0:0.0000022210,((t11:0.0306164959,t20:0.1073256327)20:0.0000022288,t10:0.0306166305)3:0.0000020378)0:0.0000020378,((t7:0.0099911906,t5:0.0414810582)67:0.0204923745,(t18:0.0100675322,t9:0.0000022168)92:0.0306163257)50:0.0000020798)3:0.0000020378,t6:0.0306166307)43:0.0100673907,(t13:0.0202716809,t19:0.0100673577)15:0.0000022321)58:0.0000020502,t2:0.0845962044);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 100 bootstrap trees
+Log-likelihood of consensus tree: -603.664087
+Robinson-Foulds distance between ML tree and consensus tree: 16
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++---------------------t17
+|
+|                       +--t3
+|                    +--| (45)
+|                    |  |  +--------t4
+|                    |  +--| (21)
+|                    |     |                        +-----------------------------t12
+|                    |     +------------------------| (100)
+|                    |                              +--t14
+|                 +--| (10)
+|                 |  |  +----t11
+|                 |  +--| (20)
+|                 |     +-------------------t20
+|              +--| (2)
+|              |  +--t1
+|           +--| (2)
+|           |  |     +----t6
+|           |  |  +--| (14)
+|           |  |  |  +----t16
+|           |  +--| (3)
+|           |     |     +--t7
+|           |     |  +--| (67)
+|           |     |  |  +------t5
+|           |     +--| (50)
+|           |        |    +--t18
+|           |        +----| (92)
+|           |             +--t9
+|        +--| (14)
+|        |  |  +--t15
+|        |  +--| (86)
+|        |     +--t8
+|     +--| (43)
+|     |  +----t10
+|  +--| (27)
+|  |  +--t13
++--| (58)
+|  +--t19
+|
++---------------t2
+
+
+Consensus tree in newick format: 
+
+(t17:0.1189537726,((((((((t3:0.0100695741,(t4:0.0517615585,(t12:0.1607031527,t14:0.0069980750)100:0.1360906037)21:0.0000022288)45:0.0100694684,(t11:0.0306157090,t20:0.1073254433)20:0.0000022288)10:0.0000022288,t1:0.0100672652)2:0.0000022288,((t6:0.0306164959,t16:0.0306164959)14:0.0000022288,((t7:0.0099913704,t5:0.0414807272)67:0.0204923127,(t18:0.0100667510,t9:0.0000022288)92:0.0306161350)50:0.0000022288)3:0.0000022288)2:0.0000022288,(t15:0.0101024406,t8:0.0101020787)86:0.0203776684)14:0.0000022288,t10:0.0306164959)43:0.0100672725,t13:0.0202716787)27:0.0000022288,t19:0.0100672652)58:0.0000022372,t2:0.0845966206);
+
+TIME STAMP
+----------
+
+Date and time: Thu May  3 10:00:21 2018
+Total CPU time used: 2.012 seconds (0h:0m:2s)
+Total wall-clock time used: 2.103199005 seconds (0h:0m:2s)
+

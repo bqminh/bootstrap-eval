@@ -1,0 +1,60 @@
+>t20
+ggtcatagcc cactttccta aatacctcat ttgtcatcta gacagcatta ggcctgtctc
+gttgagttga ataagcagtc cgctagctca tacattagat
+>t16
+ggtcattgcc cattatcccg tataccacgt gtgtcatcga gacaggttta ggcttgtctc
+gtagggttaa attaggaggc cgctcactgc tacattaaca
+>t8
+ggtcatagcc ctctttccgt tataccacgt ctgtcatcga gaaatgtctg ggcctgtctc
+gtagagtaga atgatgagtc ggctaactcc tacattacat
+>t14
+ggtcaatgcc cactttccct tataccacct ttgccatcga gataggtttg gccgtgcatc
+gcacggttga ataagcaatc cgctaggtac tacgttacat
+>t11
+ggtgaaacgg ccttttccct tataccaccc ttgccatcga ggcagggtag accctgtatc
+gcacgtttaa accagaagtc ggcgaggtcc tatattaaat
+>t7
+ggtaaaagcc cactttccct gacaccacct ttaccaccga gacagattga gcactgtgtc
+gcacggttga ataagcagtc cgctaggtac accatttcat
+>t2
+cgtaatagcc atcttgccct tataccaggt ttgtcgtcca gacaggttta ggcctgactc
+gcagggctga ttttggattc ggctacctcc tccattacat
+>t3
+cgtcatagcc aaattgccct tataccaggt ttgtcatcaa gacaggttta ggcctgtctc
+gcagggctga atttcgagtc ggcttacttc tccatgacat
+>t1
+ggtcaaaact cactttccct tataccacct atgccatcgc cacaggttta gccctgtatc
+gcacggttga atatgcggtc cgctatgtcc ttcattgcat
+>t18
+agccaaacct cattttccct tatacctcct ttgccatcgc aacaggttta gccctgtggc
+gaacggttga atacgcggtc cgctaggtcc tacattgcat
+>t5
+ggccaaacct cacctcccct tataccacct ttgccatcgc cacaggttta gccctgtagc
+gcacggttga atacgcggta cgctaggtcc tacattgcat
+>t17
+ggccaaacct caccttccca tataccacct ttgccatcgc cacaggttta gccctgtagc
+ccactgttga atacgcgctc cgctaggtcc tacatagcat
+>t9
+cgtccaagtc caatctccct tataacacga ttgtcctggg gacagattta ggtctgactt
+gttgggttga ataagcccgc cgggagataa tacacagaat
+>t19
+ggtccaagtc caatctccct tagaacacga ttgtcctggg gacagattta gggctgactc
+gtttggttga ataagccctc cggtgggtaa tacactacat
+>t12
+ggtaaaagcc tactttctct gatagtacct ttggagtcga gacaggttca ccccggtatc
+gctccgttta gcgaacactc cgcttggtac gacactacaa
+>t4
+ggtaaaaggc tacttgctct gatagtacct ttggagtcga gacaggttca ccccggtatc
+gctccgttta gcgaacagtc cgcttggtac gacataacaa
+>t6
+ggtcaaaact tactttccct tatatcacgt ttgccatcgc caaaggtttt gcccagtatc
+gcacggttga ataagcggtc cgctaggtcc ttcattgcat
+>t13
+ggtcaaaact tactttccct tatatcacct ttgccatcgc cacaggttgt gcccagtatc
+gcacggttga ataagcggtc cgctaggtcc ttcattgcat
+>t15
+ggtaaaagtc cactttgcag actactacct ttgtcatgaa gaccggtttc cccctgaatc
+gcaccgttga ataagccctc ggtatggtac gacactacaa
+>t10
+ggtaaaagtc cactttgcag actactacct ttgtcatgaa gaccggttta cccctgaatc
+gcaccgttga ataagccctc ggtatggtac gacactccaa

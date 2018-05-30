@@ -1,0 +1,176 @@
+IQ-TREE 1.6.4 built Apr 29 2018
+
+Input file name: /home/rob/bootstrap/datasets/2157/alignment.fasta
+Type of analysis: tree reconstruction + non-parametric bootstrap (100 replicates)
+Random seed number: 938055
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Lam-Tung Nguyen, Heiko A. Schmidt, Arndt von Haeseler, and Bui Quang Minh
+(2015) IQ-TREE: A fast and effective stochastic algorithm for estimating
+maximum likelihood phylogenies. Mol Biol Evol, 32:268-274.
+https://doi.org/10.1093/molbev/msu300
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 20 sequences with 100 nucleotide sites
+Number of constant sites: 0 (= 0% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 0 (= 0% of all sites)
+Number of parsimony informative sites: 96
+Number of distinct site patterns: 100
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: JC
+
+Rate parameter R:
+
+  A-C: 1.0000
+  A-G: 1.0000
+  A-T: 1.0000
+  C-G: 1.0000
+  C-T: 1.0000
+  G-T: 1.0000
+
+State frequencies: (equal frequencies)
+
+Rate matrix Q:
+
+  A        -1    0.3333    0.3333    0.3333
+  C    0.3333        -1    0.3333    0.3333
+  G    0.3333    0.3333        -1    0.3333
+  T    0.3333    0.3333    0.3333        -1
+
+Model of rate heterogeneity: Uniform
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -1638.6013 (s.e. 39.0219)
+Unconstrained log-likelihood (without tree): -460.5170
+Number of free parameters (#branches + #model parameters): 37
+Akaike information criterion (AIC) score: 3351.2027
+Corrected Akaike information criterion (AICc) score: 3396.5575
+Bayesian information criterion (BIC) score: 3447.5940
+
+Total tree length (sum of branch lengths): 5.7224
+Sum of internal branch lengths: 1.8755 (32.7752% of tree length)
+
+WARNING: 1 near-zero internal branches (<0.0100) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 't9' is drawn at root
+Numbers in parentheses are  standard bootstrap support (%)
+
++-------------------------t9
+|
+|              +----t11
+|           +--| (55)
+|           |  |                  +------------t3
+|           |  |               +--| (64)
+|           |  |               |  |                   +**t2
+|           |  |               |  +-------------------| (100)
+|           |  |               |                      +--t10
+|           |  +---------------| (96)
+|           |                  +----------------------------t6
+|        +--| (40)
+|        |  +-----------------t20
++--------| (33)
+|        |        +------------t18
+|        |  +-----| (57)
+|        |  |     |          +--------t7
+|        |  |     |       +**| (41)
+|        |  |     |       |  +------t13
+|        |  |     |    +--| (35)
+|        |  |     |    |  +---t8
+|        |  |     +----| (60)
+|        |  |          +-----t16
+|        +--| (24)
+|           |                        +--t15
+|           |                 +------| (99)
+|           |                 |      +--t17
+|           |             +---| (88)
+|           |             |   |     +--t4
+|           |             |   |  +--| (59)
+|           |             |   |  |  +--t12
+|           |             |   +--| (74)
+|           |             |      +--t1
+|           +-------------| (96)
+|                         |  +----------------t14
+|                         +--| (60)
+|                            +--t19
+|
++----------------------------------------t5
+
+Tree in newick format:
+
+(t9:0.5001206313,(((t11:0.1000226345,((t3:0.2514701072,(t2:0.0000022288,t10:0.0100666616)100:0.3918891879)64:0.0270060855,t6:0.5565607725)96:0.3036246859)55:0.0440958496,t20:0.3455119888)40:0.0461090143,((t18:0.2537366190,(((t7:0.1825229384,t13:0.1467344033)41:0.0054059035,t8:0.0772157436)35:0.0177966702,t16:0.1235851226)60:0.1112502334)57:0.1191131656,(((t15:0.0352762363,t17:0.0374164220)99:0.1315888105,((t4:0.0404074311,t12:0.0110432609)59:0.0119042057,t1:0.0300998279)74:0.0607553597)88:0.0748487444,(t14:0.3311418900,t19:0.0416259239)60:0.0606641391)96:0.2765617522)24:0.0208491932)33:0.1720748647,t5:0.7723236152);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 100 bootstrap trees
+Log-likelihood of consensus tree: -1638.601382
+Robinson-Foulds distance between ML tree and consensus tree: 0
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++-------------------------t9
+|
+|              +----t11
+|           +--| (55)
+|           |  |                  +------------t3
+|           |  |               +--| (64)
+|           |  |               |  |                   +--t2
+|           |  |               |  +-------------------| (100)
+|           |  |               |                      +--t10
+|           |  +---------------| (96)
+|           |                  +----------------------------t6
+|        +--| (40)
+|        |  +-----------------t20
++--------| (33)
+|        |        +------------t18
+|        |  +-----| (57)
+|        |  |     |          +--------t7
+|        |  |     |       +--| (41)
+|        |  |     |       |  +------t13
+|        |  |     |    +--| (35)
+|        |  |     |    |  +---t8
+|        |  |     +----| (60)
+|        |  |          +-----t16
+|        +--| (24)
+|           |                        +--t15
+|           |                 +------| (99)
+|           |                 |      +--t17
+|           |             +---| (88)
+|           |             |   |     +--t4
+|           |             |   |  +--| (59)
+|           |             |   |  |  +--t12
+|           |             |   +--| (74)
+|           |             |      +--t1
+|           +-------------| (96)
+|                         |  +----------------t14
+|                         +--| (60)
+|                            +--t19
+|
++----------------------------------------t5
+
+
+Consensus tree in newick format: 
+
+(t9:0.5006686074,(((t11:0.0998664455,((t3:0.2513605025,(t2:0.0000022288,t10:0.0100669400)100:0.3918379071)64:0.0271452613,t6:0.5566119828)96:0.3034775425)55:0.0444801915,t20:0.3455630113)40:0.0448645564,((t18:0.2537646681,(((t7:0.1825266950,t13:0.1467316268)41:0.0054049650,t8:0.0772180014)35:0.0178212261,t16:0.1235526565)60:0.1112304059)57:0.1189610835,(((t15:0.0352758495,t17:0.0374167893)99:0.1316039238,((t4:0.0404086105,t12:0.0110422050)59:0.0119054609,t1:0.0300973733)74:0.0607518003)88:0.0748298035,(t14:0.3312304837,t19:0.0415447807)60:0.0607922583)96:0.2765047581)24:0.0218217045)33:0.1717410356,t5:0.7722490880);
+
+TIME STAMP
+----------
+
+Date and time: Wed May  2 15:13:08 2018
+Total CPU time used: 1.276 seconds (0h:0m:1s)
+Total wall-clock time used: 1.51897788 seconds (0h:0m:1s)
+

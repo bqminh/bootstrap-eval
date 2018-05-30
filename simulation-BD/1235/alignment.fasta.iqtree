@@ -1,0 +1,176 @@
+IQ-TREE 1.6.4 built Apr 29 2018
+
+Input file name: /home/rob/bootstrap/datasets/1235/alignment.fasta
+Type of analysis: tree reconstruction + non-parametric bootstrap (100 replicates)
+Random seed number: 755802
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Lam-Tung Nguyen, Heiko A. Schmidt, Arndt von Haeseler, and Bui Quang Minh
+(2015) IQ-TREE: A fast and effective stochastic algorithm for estimating
+maximum likelihood phylogenies. Mol Biol Evol, 32:268-274.
+https://doi.org/10.1093/molbev/msu300
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 20 sequences with 100 nucleotide sites
+Number of constant sites: 0 (= 0% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 0 (= 0% of all sites)
+Number of parsimony informative sites: 100
+Number of distinct site patterns: 100
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: JC
+
+Rate parameter R:
+
+  A-C: 1.0000
+  A-G: 1.0000
+  A-T: 1.0000
+  C-G: 1.0000
+  C-T: 1.0000
+  G-T: 1.0000
+
+State frequencies: (equal frequencies)
+
+Rate matrix Q:
+
+  A        -1    0.3333    0.3333    0.3333
+  C    0.3333        -1    0.3333    0.3333
+  G    0.3333    0.3333        -1    0.3333
+  T    0.3333    0.3333    0.3333        -1
+
+Model of rate heterogeneity: Uniform
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -2502.8049 (s.e. 23.9711)
+Unconstrained log-likelihood (without tree): -460.5170
+Number of free parameters (#branches + #model parameters): 37
+Akaike information criterion (AIC) score: 5079.6098
+Corrected Akaike information criterion (AICc) score: 5124.9646
+Bayesian information criterion (BIC) score: 5176.0011
+
+Total tree length (sum of branch lengths): 16.0758
+Sum of internal branch lengths: 4.3824 (27.2610% of tree length)
+
+WARNING: 2 near-zero internal branches (<0.0100) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 't10' is drawn at root
+Numbers in parentheses are  standard bootstrap support (%)
+
++---------t10
+|
+|           +------------------t18
+|        +--| (7)
+|        |  |             +--------------------------------------t9
+|        |  |          +--| (28)
+|        |  |          |  |       +-------------t19
+|        |  |          |  +-------| (43)
+|        |  |          |          +---t2
+|        |  |     +----| (30)
+|        |  |     |    +--t14
+|        |  +-----| (7)
+|        |        |             +------------t12
+|        |        +-------------| (40)
+|        |                      +-------------------t1
+|     +--| (6)
+|     |  |         +--t17
+|     |  |  +------| (86)
+|     |  |  |      +--t6
+|     |  +--| (23)
+|     |     |            +**t15
+|     |     +------------| (74)
+|     |                  +--------------t3
+|  +--| (5)
+|  |  +----------t13
++**| (8)
+|  |                    +-------------------------------t20
+|  |         +----------| (39)
+|  |         |          +**t16
+|  |     +---| (20)
+|  |     |   +-----------t8
+|  |  +--| (10)
+|  |  |  +--t7
+|  +**| (2)
+|     |  +--t4
+|     +--| (28)
+|        +---------t5
+|
++-------------------t11
+
+Tree in newick format:
+
+(t10:0.4986208304,((((t18:0.9639043211,(((t9:1.9378648427,(t19:0.7165046426,t2:0.2396718844)43:0.4057150142)28:0.0599782824,t14:0.0352366319)30:0.2598043436,(t12:0.6695181951,t1:1.0094452906)40:0.7015090383)7:0.3250066637)7:0.1867442826,((t17:0.1568267243,t6:0.1486006102)86:0.3499998584,(t15:0.0000022262,t3:0.7389607545)74:0.6547811610)23:0.1772765876)6:0.0360568484,t13:0.5713270874)5:0.1204077119,((((t20:1.5901951286,t16:0.0000028298)39:0.5669228011,t8:0.6273529803)20:0.2409015522,t7:0.0931886220)10:0.1263957364,(t4:0.1733043953,t5:0.5164604122)28:0.1655951670)2:0.0053125354)8:0.0000024956,t11:1.0063709537);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 100 bootstrap trees
+Log-likelihood of consensus tree: -2503.441704
+Robinson-Foulds distance between ML tree and consensus tree: 10
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++---------t10
+|
+|               +--------------t18
+|          +----| (9)
+|          |    |          +-----------t12
+|          |    +----------| (40)
+|          |               +--------------------t1
+|     +----| (7)
+|     |    |        +---------------------------------------t9
+|     |    +--------| (30)
+|     |             |  +--t14
+|     |             +--| (30)
+|     |                |        +-------------t19
+|     |                +--------| (43)
+|     |                         +---t2
+|  +--| (6)
+|  |  |        +--t17
+|  |  |  +-----| (86)
+|  |  |  |     +--t6
+|  |  +--| (23)
+|  |     |            +--t15
+|  |     +------------| (74)
+|  |                  +--------------t3
++--| (1)
+|  |                  +-------------------------------t20
+|  |       +----------| (39)
+|  |       |          +--t16
+|  |  +----| (20)
+|  |  |    +-----------t8
+|  +--| (10)
+|     +--t7
+|
+|     +--------t13
+|  +--| (17)
+|  |  +----------------t11
++--| (4)
+   |  +--t4
+   +--| (28)
+      +---------t5
+
+
+Consensus tree in newick format: 
+
+(t10:0.5013770242,((((t18:0.7392931010,(t12:0.6277507101,t1:1.0507915691)40:0.5789547804)9:0.2467722597,(t9:2.0014735960,(t14:0.0410773273,(t19:0.7174049246,t2:0.2398223648)43:0.4577487669)30:0.0000027260)30:0.4866333807)7:0.2551076612,((t17:0.1300131569,t6:0.1749110484)86:0.3352059147,(t15:0.0000023517,t3:0.7389605399)74:0.6652825692)23:0.1609588088)6:0.1821382018,(((t20:1.5901957035,t16:0.0000021059)39:0.5599344638,t8:0.6327505226)20:0.2447736473,t7:0.0888687805)10:0.1237262048)1:0.0100599608,((t13:0.4500844933,t11:0.8420166689)17:0.1864185755,(t4:0.1582856472,t5:0.5296379602)28:0.1342445313)4:0.0489890873);
+
+TIME STAMP
+----------
+
+Date and time: Thu May  3 19:30:01 2018
+Total CPU time used: 1.476 seconds (0h:0m:1s)
+Total wall-clock time used: 1.489845991 seconds (0h:0m:1s)
+
