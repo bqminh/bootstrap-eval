@@ -21,8 +21,10 @@ To replicate the results follow these steps:
 
 1. Download the simulated alignments based on the PANDIT database from [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1156452.svg)](https://doi.org/10.5281/zenodo.1156452). 
 2. Go to `dna` folder and for each sub-folder `$i`, run IQ-TREE:
+
         iqtree -s data.$i -m ``cat model.$i`` -b 100
 3. In each sub-folder, create a symbolic links:
+
         ln -s data.$i alignment.fasta
         ln -s tree.$i phylogram.phy
 4. Run `calculate_tbes.R`.     
